@@ -1,0 +1,45 @@
+能够说出Object类的toString和equals方法的作用
+	toString： 可以将一个对象转成字符串。 
+	equals： 可以比较对象是否相同。
+	
+能够使用SimpleDateFormat完成字符串和日期的相互转换
+	String -> Date（解析）
+		使用SimpleDateFormat的parse方法
+	Date -> String（格式化）
+		使用SimpleDateFormat的format方法
+能够使用System类获取当前毫秒时刻值
+	使用currentTimeMillis()方法实现
+能够说出使用StringBuilder类可以解决的问题
+	如果使用String进行拼接，因为String不可改变，每次拼接都会产生一个新的字符串。
+	StirngBuilder是可以改变的，每次拼接不会产生新的字符串，可以对原来字符串进行
+	改变， StringBuilder可以解决String拼接带来的性能以及内存浪费问题。
+能够使用StringBuilder进行字符串拼接操作
+	append(任意类型)： 可以将任意类型的数据拼接到StringBuilder上面
+能够说出8种基本类型对应的包装类名称
+	 基本类型        包装类（引用类型）
+		byte            Byte
+		short           Short
+		int             Integer(特殊)
+		long            Long
+		float           Float
+		double          Double
+		boolean         Boolean
+		char            Character(特殊)
+能够说出自动装箱、自动拆箱的概念
+	自动装箱： 基本类型可以自动转成对应的包装类。
+	自动拆箱： 包装类可以自动转成基本类型。
+	
+能够将字符串转换为对应的基本类型
+	直接使用对应基本类型包装的parseXXX方法即可。
+	Integer.parseInt
+	Double.parseDouble
+	
+最重点：
+	1. Object里面的两个方法。
+	2. 包装类。
+	
+重要：
+	1. StringBuilder
+	2. Date
+	
+其他的也要掌握
